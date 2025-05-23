@@ -4,8 +4,6 @@ import { useState } from "react";
 import Header from "./Header";
 import Comments from "./Comments";
 import Footer from "./Footer";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import FeaturedPost from "./FeaturedPost";
