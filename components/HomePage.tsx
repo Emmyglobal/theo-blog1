@@ -62,7 +62,7 @@ const HomePage = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <Header />
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-16">
+      <div className="max-w-6xl mx-auto px-4 py-6 sm:px-6 sm:py-10 lg:px-8 lg:py-12 space-y-12">
         <FeaturedPost post={featuredPost} />
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
