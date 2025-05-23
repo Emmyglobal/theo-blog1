@@ -1,5 +1,4 @@
 import Comments from "../../../../components/Comments";
-import Footer from "../../../../components/Footer";
 import Header from "../../../../components/Header";
 
 export const metadata = {
