@@ -32,7 +32,7 @@ export default function MyFirstPost() {
           </p>
 
           <p>
-            The artificial intelligence landscape in America is undergoing a seismic shift as new regulatory frameworks take effect. Companies across industries are navigating a complex web of federal, state, and local requirements while balancing innovation with compliance. Understanding these developments isn't just important for tech companies—it's essential for any business leveraging AI systems.
+            The artificial intelligence landscape in America is undergoing a seismic shift as new regulatory frameworks take effect. Companies across industries are navigating a complex web of federal, state, and local requirements while balancing innovation with compliance. Understanding these developments isn&apos;t just important for tech companies—it&apos;s essential for any business leveraging AI systems.
           </p>
 
           <h2 className="text-2xl font-bold mt-10">

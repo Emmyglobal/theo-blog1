@@ -7,7 +7,7 @@ const blogLinks = [
   { title: "5 Critical AI Regulations That Will Transform Your Business This Year", slug: "my-first-post" },
   { title: "8 Powerful Digital Health Breakthroughs Reshaping Care in America", slug: "powerful-digital" },
   { title: "10 Brilliant Transport Solutions African Cities Are Using Right Now", slug: "brilliant-transport-solutions" },
-  { title: "5 Remarkable Ways Africa's Solar Revolution Is Changing Lives Today", slug: "remarkable-ways-africa's-solar-revolutio-is-changing-lives-today" },
+  { title: "5 Remarkable Ways Africa&apos;s Solar Revolution Is Changing Lives Today", slug: "remarkable-ways-africa&apos;s-solar-revolutio-is-changing-lives-today" },
 ];
 
 const Header = () => {

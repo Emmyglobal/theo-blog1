@@ -38,11 +38,11 @@ const blogPosts = [
       "African cities are solving transport challenges with uniquely local solutions—discover them here.",
   },
   {
-    title: "5 Remarkable Ways Africa's Solar Revolution Is Changing Lives Today",
-    slug: "remarkable-ways-africa's-solar-revolutio-is-changing-lives-today",
+    title: "5 Remarkable Ways Africa&apos;s Solar Revolution Is Changing Lives Today",
+    slug: "remarkable-ways-africa&apos;s-solar-revolutio-is-changing-lives-today",
     date: "May 22, 2025",
     description:
-      "Africa's solar revolution is transforming homes, communities, and economies through sustainable power.",
+      "Africa&apos;s solar revolution is transforming homes, communities, and economies through sustainable power.",
   },
 ];
 

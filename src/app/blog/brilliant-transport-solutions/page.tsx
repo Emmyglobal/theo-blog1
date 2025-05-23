@@ -6,7 +6,7 @@ import Header from "../../../../components/Header";
 export const metadata = {
   title: "10 Brilliant Transport Solutions African Cities Are Using Right Now",
   description:
-    "African urban centers are experiencing a transportation renaissance that's reshaping daily life for millions. Far from simply importing solutions from elsewhere, these cities are developing uniquely African approaches to mobility challenges. These innovations aren't just improving how people move—they're transforming economies, enhancing sustainability, and creating more equitable urban environments.",
+    "African urban centers are experiencing a transportation renaissance that&apos;s reshaping daily life for millions. Far from simply importing solutions from elsewhere, these cities are developing uniquely African approaches to mobility challenges. These innovations aren&apos;t just improving how people move—they&apos;re transforming economies, enhancing sustainability, and creating more equitable urban environments.",
 };
 
 export default function BrilliantTransport() {
@@ -19,7 +19,7 @@ export default function BrilliantTransport() {
             10 Brilliant Transport Solutions African Cities Are Using Right Now
           </h1>
           <p>
-            African urban centers are experiencing a transportation renaissance that's reshaping daily life for millions. Far from simply importing solutions from elsewhere, these cities are developing uniquely African approaches to mobility challenges. These innovations aren't just improving how people move—they're transforming economies, enhancing sustainability, and creating more equitable urban environments.
+            African urban centers are experiencing a transportation renaissance that&apos;s reshaping daily life for millions. Far from simply importing solutions from elsewhere, these cities are developing uniquely African approaches to mobility challenges. These innovations aren&apos;t just improving how people move—they&apos;re transforming economies, enhancing sustainability, and creating more equitable urban environments.
           </p>
 
           <h2 className="text-2xl font-bold mt-10">
@@ -45,20 +45,20 @@ export default function BrilliantTransport() {
             The Kenyan-designed Roam electric motorcycle has become particularly successful, with over 50,000 units now operating as taxis in East African cities. These vehicles reduce operating costs for drivers by 60% compared to petrol alternatives while eliminating emissions in congested urban areas.
           </p>
           <p>
-            Egypt's manufacturing base has evolved to produce electric microbuses specifically designed for narrow urban streets and high passenger density. These vehicles combine affordability with durability for the harsh operating conditions of North African cities, making electrification economically viable for small transport businesses.
+            Egypt&apos;s manufacturing base has evolved to produce electric microbuses specifically designed for narrow urban streets and high passenger density. These vehicles combine affordability with durability for the harsh operating conditions of North African cities, making electrification economically viable for small transport businesses.
           </p>
 
           <h2 className="text-2xl font-bold mt-10">
             How Aerial Mobility Is Connecting Previously Isolated Areas
           </h2>
           <p>
-            Drone delivery networks have transcended proof-of-concept to become critical infrastructure in several African regions. Rwanda's medical drone system now completes over 500 daily deliveries of blood products, vaccines, and emergency medications to facilities across the country, drastically reducing response times for critical supplies.
+            Drone delivery networks have transcended proof-of-concept to become critical infrastructure in several African regions. Rwanda&apos;s medical drone system now completes over 500 daily deliveries of blood products, vaccines, and emergency medications to facilities across the country, drastically reducing response times for critical supplies.
           </p>
           <p>
-            Urban air mobility corridors are being established between Lagos's business districts to overcome ground congestion. Electric vertical takeoff and landing (eVTOL) vehicles operate scheduled services along these routes, reducing two-hour commutes to 15-minute flights while operating from minimal infrastructure footprints.
+            Urban air mobility corridors are being established between Lagos&apos;s business districts to overcome ground congestion. Electric vertical takeoff and landing (eVTOL) vehicles operate scheduled services along these routes, reducing two-hour commutes to 15-minute flights while operating from minimal infrastructure footprints.
           </p>
           <p>
-            What's particularly notable is the comprehensive regulatory frameworks developed to manage these aerial systems. Ghana's drone corridor management system has become a model studied by aviation authorities worldwide for its balanced approach to safety, privacy, and operational efficiency.
+            What&apos;s particularly notable is the comprehensive regulatory frameworks developed to manage these aerial systems. Ghana&apos;s drone corridor management system has become a model studied by aviation authorities worldwide for its balanced approach to safety, privacy, and operational efficiency.
           </p>
 
           <h2 className="text-2xl font-bold mt-10">

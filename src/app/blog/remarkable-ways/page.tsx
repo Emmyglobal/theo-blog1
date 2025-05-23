@@ -2,7 +2,7 @@ import Comments from "../../../../components/Comments";
 import Header from "../../../../components/Header";
 
 export const metadata = {
-  title: "5 Remarkable Ways Africa's Solar Revolution Is Changing Lives Today",
+  title: "5 Remarkable Ways Africa&apos;s Solar Revolution Is Changing Lives Today",
   description:
     "The African continent is experiencing an unprecedented transformation through renewable energy adoption.",
 };
@@ -14,16 +14,16 @@ export default function TheRiseOfAIPost() {
       <div className="max-w-3xl mx-auto text-gray-800 dark:text-gray-100">
         <article className="space-y-6">
           <h1 className="text-4xl font-extrabold mb-4">
-            5 Remarkable Ways Africa's Solar Revolution Is Changing Lives Today
+            5 Remarkable Ways Africa&apos;s Solar Revolution Is Changing Lives Today
           </h1>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 italic">
             The African continent is experiencing an unprecedented transformation through renewable energy adoption. What began as 
             small-scale solar installations has evolved into a continent-wide movement with far-reaching implications. This solar 
-            revolution isn't just changing how people power their homes—it's reshaping entire communities and economies.
+            revolution isn&apos;t just changing how people power their homes—it&apos;s reshaping entire communities and economies.
           </p>
 
-          <h2 className="text-2xl font-bold mt-10">How Local Communities Are Driving Africa's Green Energy Boom</h2>
+          <h2 className="text-2xl font-bold mt-10">How Local Communities Are Driving Africa&apos;s Green Energy Boom</h2>
           <p>
             Across Africa, communities are taking energy production into their own hands. Village cooperatives in Kenya and Tanzania 
             have established community-owned solar microgrids, bringing electricity to areas previously untouched by national power 
@@ -80,7 +80,7 @@ export default function TheRiseOfAIPost() {
             improvements in respiratory health, especially among women and children who spend more time indoors.
           </p>
 
-          <h2 className="text-2xl font-bold mt-10">What's Next for Africa's Solar Revolution?</h2>
+          <h2 className="text-2xl font-bold mt-10">What&apos;s Next for Africa&apos;s Solar Revolution?</h2>
           <p>
             Cross-border renewable energy trading is emerging as countries with excess solar capacity sell to neighbors during peak 
             production. This regional approach to energy security represents a new model of cooperation across the continent.
@@ -91,7 +91,7 @@ export default function TheRiseOfAIPost() {
           </p>
           <p>
             As Africa leads in practical solar implementation, its experiences provide valuable lessons for renewable energy adoption 
-            globally. The continent's leap-frogging of traditional energy development paths offers a blueprint for sustainable development worldwide.
+            globally. The continent&apos;s leap-frogging of traditional energy development paths offers a blueprint for sustainable development worldwide.
           </p>
           <p>
             The solar revolution unfolding across Africa demonstrates how renewable energy can drive comprehensive development. By combining 
