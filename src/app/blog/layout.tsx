@@ -1,6 +1,7 @@
 // app/blog/layout.tsx
 import type { Metadata } from "next";
 import Footer from "../../../components/Footer";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Blog | My Blog",
@@ -16,7 +17,7 @@ export default function BlogLayout({
     <div className="min-h-screen bg-white text-black">
       <header className="border-b py-4 px-4 md:px-8 shadow">
         <h1 className="text-2xl font-bold">
-          <a href="/">My Blog</a>
+          <Link href="/">Home</Link>
         </h1>
       </header>
       <main className="max-w-4xl mx-auto p-4">{children}</main>

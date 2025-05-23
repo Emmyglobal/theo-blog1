@@ -8,7 +8,7 @@ export default function AboutPage() {
         <Header />
       <h1 className="text-4xl font-bold mb-6">About Digital Dose</h1>
       <p className="text-lg mb-4">
-        Welcome to <strong>Digital Dose</strong> – your daily source for insightful stories and breakthroughs across Africa and the world. We're passionate about exploring how technology, culture, health, and innovation shape the modern world.
+        Welcome to <strong>Digital Dose</strong> – your daily source for insightful stories and breakthroughs across Africa and the world. We&apos;re passionate about exploring how technology, culture, health, and innovation shape the modern world.
       </p>
       <p className="text-lg mb-4">
         Our mission is to shed light on transformative ideas and real-world impact. Whether it’s climate adaptation in African cities, AI trends, or healthcare breakthroughs, our blog provides curated content to inspire, educate, and empower.
