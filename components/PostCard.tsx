@@ -1,6 +1,6 @@
-// components/PostCard.tsx
 "use client";
 
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -23,26 +23,31 @@ export default function PostCard({ post }: PostCardProps) {
     <div
       className="group bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 p-6 flex flex-col h-full cursor-pointer"
     >
-        <div>
-      <Swiper
-        modules={[Navigation, Autoplay]}
-        navigation
-        loop={true}
-        spaceBetween={10}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        slidesPerView={1}
-        className="mb-4 rounded-xl overflow-hidden"
-      >
-        {post.images.map((img, i) => (
-          <SwiperSlide key={`${post.slug}-${i}`}>
-            <img
-              src={img}
-              alt={`Image ${i + 1} of ${post.title}`}
-              className="rounded-xl w-full h-48 object-cover"
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div>
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          navigation
+          loop
+          spaceBetween={10}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          slidesPerView={1}
+          className="mb-4 rounded-xl overflow-hidden"
+        >
+          {post.images.map((img, i) => (
+            <SwiperSlide key={`${post.slug}-${i}`}>
+              <div className="relative w-full h-48">
+                <Image
+                  src={img}
+                  alt={`Image ${i + 1} of ${post.title}`}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-xl"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
       <div onClick={() => (window.location.href = `/blog/${post.slug}`)}>
