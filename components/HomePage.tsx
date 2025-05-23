@@ -12,7 +12,7 @@ import FeaturedPost from "./FeaturedPost";
 import PostCard from "./PostCard";
 
 const featuredPost = {
-  slug: "remarkable-ways-africa's-solar-revolutio-is-changing-lives-today",
+  slug: "remarkable-ways",
   title: "5 Remarkable Ways Africa's Solar Revolution Is Changing Lives Today",
   excerpt:
     "The African continent is experiencing an unprecedented transformation through renewable energy adoption. This solar revolution isn't just changing how people power their homes—it's reshaping entire communities and economies.",
