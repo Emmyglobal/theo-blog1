@@ -31,6 +31,7 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
     return () => observer.disconnect();
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
