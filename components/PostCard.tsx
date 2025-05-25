@@ -22,7 +22,7 @@ export default function PostCard({ post }: PostCardProps) {
     <div
       className="group bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 p-6 flex flex-col h-full cursor-pointer"
     >
-      <div>
+      <div className="sm:w-full">
         <Swiper
           modules={[Navigation, Autoplay]}
           navigation
@@ -34,7 +34,7 @@ export default function PostCard({ post }: PostCardProps) {
         >
           {post.images.map((img, i) => (
             <SwiperSlide key={`${post.slug}-${i}`}>
-              <div className="relative w-full h-48 sm:w-full sm:h-56 md:h-64">
+              <div className="relative w-full h-48  sm:h-56 md:h-64">
                 <Image
                   src={img}
                   alt={`Image ${i + 1} of ${post.title}`}
