@@ -34,7 +34,7 @@ export default function PostCard({ post }: PostCardProps) {
         >
           {post.images.map((img, i) => (
             <SwiperSlide key={`${post.slug}-${i}`}>
-              <div className="relative w-full h-48 sm:h-56 md:h-64">
+              <div className="relative w-full h-48 sm:w-full sm:h-56 md:h-64">
                 <Image
                   src={img}
                   alt={`Image ${i + 1} of ${post.title}`}
