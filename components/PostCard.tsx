@@ -20,9 +20,9 @@ interface PostCardProps {
 
 export default function PostCard({ post }: PostCardProps) {
   return (
-    
+    <div className="overflow-x-hidden">
     <div
-      className="group bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 p-6 flex flex-col h-full max-w-screen-sm mx-auto"
+      className="group bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 p-6 flex flex-col h-full max-w-screen-sm mx-auto cursor-pointer"
     >
       {/* Swiper Section */}
       <div>
@@ -77,6 +77,7 @@ export default function PostCard({ post }: PostCardProps) {
           </span>
         ))}
       </div>
+    </div>
     </div>
   );
 }
