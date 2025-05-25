@@ -8,6 +8,13 @@ interface AdSenseProps {
   className?: string;
 }
 
+// Extend the Window interface to include adsbygoogle
+declare global {
+  interface Window {
+    adsbygoogle?: Array<Record<string, unknown>>;
+  }
+}
+
 const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
   const adRef = useRef<HTMLDivElement>(null);
   const [loadAd, setLoadAd] = useState(false);
@@ -34,12 +41,10 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
-        const w = window as any;
-        if (!w.adsbygoogle) {
-          w.adsbygoogle = [];
+        if (!window.adsbygoogle) {
+          window.adsbygoogle = [];
         }
-        const adsArray = w.adsbygoogle;
-        adsArray.push({});
+        window.adsbygoogle.push({});
       } catch (e) {
         console.error("AdSense error:", e);
       }
