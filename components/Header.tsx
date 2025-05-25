@@ -21,7 +21,7 @@ const Header = () => {
         <Link href="/" className="flex items-center gap-3">
           <img src="/logo.jpg" alt="Logo" className="h-12 w-auto rounded-md shadow-md" />
           <span className="text-2xl font-extrabold text-white tracking-wide select-none">
-            DIGITAL
+            DIGITAL DOSE
           </span>
         </Link>
 
