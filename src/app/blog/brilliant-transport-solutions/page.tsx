@@ -19,7 +19,11 @@ export default function BrilliantTransport() {
             10 Brilliant Transport Solutions African Cities Are Using Right Now
           </h1>
           <p>
-            African urban centers are experiencing a transportation renaissance that&apos;s reshaping daily life for millions. Far from simply importing solutions from elsewhere, these cities are developing uniquely African approaches to mobility challenges. These innovations aren&apos;t just improving how people move—they&apos;re transforming economies, enhancing sustainability, and creating more equitable urban environments.
+            African urban centers are experiencing a transportation renaissance that&apos;s
+            reshaping daily life for millions. Far from simply importing solutions from elsewhere, 
+            these cities are developing uniquely African approaches to mobility challenges. 
+            These innovations aren&apos;t just improving how people move—they&apos;re transforming economies,
+             enhancing sustainability, and creating more equitable urban environments.
           </p>
 
           <h2 className="text-2xl font-bold mt-10">
