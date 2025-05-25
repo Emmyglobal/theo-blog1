@@ -31,7 +31,6 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
     return () => observer.disconnect();
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
@@ -39,7 +38,8 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
         if (!w.adsbygoogle) {
           w.adsbygoogle = [];
         }
-        w.adsbygoogle.push({});
+        const adsArray = w.adsbygoogle;
+        adsArray.push({});
       } catch (e) {
         console.error("AdSense error:", e);
       }
