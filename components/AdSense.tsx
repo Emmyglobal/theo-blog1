@@ -20,10 +20,7 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
           observer.disconnect();
         }
       },
-      {
-        rootMargin: "100px",
-        threshold: 0.1,
-      }
+      { rootMargin: "100px", threshold: 0.1 }
     );
 
     if (adRef.current) {
@@ -33,11 +30,12 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
     return () => observer.disconnect();
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         const w = window as any;
+
         if (!w.adsbygoogle) {
           w.adsbygoogle = [];
         }
