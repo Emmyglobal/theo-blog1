@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Script from "next/script";
 
 interface AdSenseProps {
   adSlot: string;
@@ -18,11 +17,11 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
         const entry = entries[0];
         if (entry.isIntersecting) {
           setLoadAd(true);
-          observer.disconnect(); // Stop observing once ad is loaded
+          observer.disconnect();
         }
       },
       {
-        rootMargin: "100px", // preload just before visible
+        rootMargin: "100px",
         threshold: 0.1,
       }
     );
@@ -34,10 +33,15 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
     return () => observer.disconnect();
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
-        {`(window.adsbygoogle = window.adsbygoogle || []).push({});`}
+        const w = window as any;
+        if (!w.adsbygoogle) {
+          w.adsbygoogle = [];
+        }
+        w.adsbygoogle.push({});
       } catch (e) {
         console.error("AdSense error:", e);
       }
@@ -56,9 +60,13 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
-          <Script id={`adsbygoogle-${adSlot}`} strategy="afterInteractive">
-            {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-          </Script>
+          {/* eslint-disable-next-line @typescript-eslint/no-unused-expressions */}
+          <script
+            id={`adsbygoogle-${adSlot}`}
+            dangerouslySetInnerHTML={{
+              __html: `(window.adsbygoogle = window.adsbygoogle || []).push({});`,
+            }}
+          />
         </>
       )}
     </div>
