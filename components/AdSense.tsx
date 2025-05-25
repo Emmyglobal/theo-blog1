@@ -33,9 +33,7 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
   useEffect(() => {
     if (loadAd && typeof window !== "undefined") {
       try {
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         const w = window as any;
-
         if (!w.adsbygoogle) {
           w.adsbygoogle = [];
         }
@@ -58,11 +56,10 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
-          {/* eslint-disable-next-line @typescript-eslint/no-unused-expressions */}
           <script
             id={`adsbygoogle-${adSlot}`}
             dangerouslySetInnerHTML={{
-              __html: `(window.adsbygoogle = window.adsbygoogle || []).push({});`,
+              __html: `(() => { (window.adsbygoogle = window.adsbygoogle || []).push({}); })();`,
             }}
           />
         </>
