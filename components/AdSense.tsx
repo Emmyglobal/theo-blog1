@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Script from "next/script";
 
 interface AdSenseProps {
   adSlot: string;
@@ -56,10 +57,11 @@ const AdSense: React.FC<AdSenseProps> = ({ adSlot, className = "" }) => {
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
-          <script
+          <Script
             id={`adsbygoogle-${adSlot}`}
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
-              __html: `(() => { (window.adsbygoogle = window.adsbygoogle || []).push({}); })();`,
+              __html: `(window.adsbygoogle = window.adsbygoogle || []).push({});`,
             }}
           />
         </>
