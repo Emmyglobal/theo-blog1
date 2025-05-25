@@ -17,7 +17,6 @@ interface PostCardProps {
   };
   onClick?: () => void;
 }
-
 export default function PostCard({ post }: PostCardProps) {
   return (
     <div

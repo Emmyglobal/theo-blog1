@@ -6,10 +6,11 @@ import HomePage from "../../components/HomePage";
 const Page = () => {
   return (
     <div>
-      <AdSense adSlot="9546412401" />
+      
       <HomePage />
 
       {/* Google AdSense Ad Unit */}
+      <AdSense adSlot="9546412401" />
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
