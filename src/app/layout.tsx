@@ -3,17 +3,18 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Blog",
+  title: "thedigitaldose",
   description: "A blog about technology and innovation",
   keywords: ["blog", "technology", "innovation"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Emmyglobal" }],
   openGraph: {
-    title: "My Blog",
+    title: "thedigitaldose",
     description: "A blog about technology and innovation",
     url: "https://your-blog-url.com",
     siteName: "My Blog",
@@ -68,8 +69,8 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className="bg-white text-gray-900 antialiased">
-        {/* ✅ Move this AdSense tag into your actual page, not layout */}
         {children}
+        <Analytics/>
       </body>
     </html>
   );
