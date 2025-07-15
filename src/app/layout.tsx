@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "thedigitaldose",
   description: "A blog about technology and innovation",
   keywords: ["blog", "technology", "innovation"],
-  authors: [{ name: "Emmyglobal" }],
+  authors: [{ name: "BOLDATLAS" }],
   openGraph: {
     title: "thedigitaldose",
     description: "A blog about technology and innovation",
