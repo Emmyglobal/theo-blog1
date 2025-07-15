@@ -9,12 +9,12 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "thedigitaldose",
+  title: "boldatlas",
   description: "A blog about technology and innovation",
   keywords: ["blog", "technology", "innovation"],
   authors: [{ name: "BOLDATLAS" }],
   openGraph: {
-    title: "thedigitaldose",
+    title: "boldatlas",
     description: "A blog about technology and innovation",
     url: "https://your-blog-url.com",
     siteName: "My Blog",
