@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Branding */}
         <div>
-          <h2 className="text-xl font-bold text-white">Digital Dose</h2>
+          <h2 className="text-xl font-bold text-white">BOLDATLAS</h2>
           <p className="text-sm mt-2">
             Your daily source of tech, innovation, and African impact stories.
           </p>
@@ -61,7 +61,7 @@ const Footer = () => {
 
       {/* Bottom Line */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
-        &copy; {currentYear} Digital Dose. All rights reserved.
+        &copy; {currentYear} BOLDATLAS. All rights reserved.
       </div>
     </footer>
   );
