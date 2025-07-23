@@ -16,6 +16,8 @@ const Header = () => {
 
   return (
     <header className="bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600 shadow-lg sticky top-0 z-50">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1037358753872630"
+     crossorigin="anonymous"></script>
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between relative">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
