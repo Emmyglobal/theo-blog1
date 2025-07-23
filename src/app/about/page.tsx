@@ -5,8 +5,6 @@ import Header from "../../../components/Header";
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-gray-800 dark:text-gray-100">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1037358753872630"
-     crossorigin="anonymous"></script>
         <Header />
       <h1 className="text-4xl font-bold mb-6">About BOLDATLAS</h1>
       <p className="text-lg mb-4">
