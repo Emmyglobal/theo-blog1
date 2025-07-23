@@ -10,8 +10,8 @@ export default function AboutPage() {
         <Header />
       <h1 className="text-4xl font-bold mb-6">About BOLDATLAS</h1>
       <p className="text-lg mb-4">
-        Welcome to <strong>BOLDATLAS</strong> – your daily source for insightful stories and breakthroughs across Africa and the world. We&apos;re passionate about exploring how technology, culture, health, and innovation shape the modern world.
-      </p>
+        <strong>Boldatlas</strong> is your daily compass for navigating modern life, covering insightful stories, expert tips, and fresh perspectives on lifestyle, health, education, sports, and politics. Whether you're seeking wellness advice, educational breakthroughs, cultural trends, or political analysis, Boldatlas connects you to content that informs, inspires, and empowers.
+Join a vibrant community of curious minds exploring bold ideas that shape how we live, learn, and lead in today’s world.      </p>
       <p className="text-lg mb-4">
         Our mission is to shed light on transformative ideas and real-world impact. Whether it’s climate adaptation in African cities, AI trends, or healthcare breakthroughs, our blog provides curated content to inspire, educate, and empower.
       </p>
